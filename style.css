@@ -1,0 +1,172 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    height: 100vh;
+    align-items: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.9);
+}
+
+button
+{
+    cursor: pointer;
+    border: none;
+    width: auto;
+    height: 50px;
+    background-color: gainsboro;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+main
+{
+    width: min(100% - 2rem, 20rem);
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 20px;
+}
+
+
+input
+{
+    border: none;
+    background-color: rgb(255, 255, 255, 0.7);
+    aspect-ratio: 16 / 2;
+    padding-inline: 5px;
+    text-align: right;
+    font-size: calc(2vw + 0.75rem);
+}
+
+body,
+.div-input
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#secundario
+{
+    font-size: calc(1.5vw + 0.5rem);
+}
+
+.div-btn
+{
+    display: grid;
+    grid-template-areas:
+        'cancel aoQuadrado raiz apagar'
+        'sete oito nove dividir'
+        'quatro cinco seis multiplicar'
+        'um dois tres subtrair'
+        'ponto zero igual soma';
+    grid-gap: 2px;
+    margin-top: 10px;
+}
+
+.div-btn button:nth-child(1)
+{
+    grid-area: zero;
+}
+
+.div-btn button:nth-child(2)
+{
+    grid-area: um;
+}
+
+.div-btn button:nth-child(3)
+{
+    grid-area: dois;
+}
+
+.div-btn button:nth-child(4)
+{
+    grid-area: tres;
+}
+
+.div-btn button:nth-child(5)
+{
+    grid-area: quatro;
+}
+
+.div-btn button:nth-child(6)
+{
+    grid-area: cinco;
+}
+
+.div-btn button:nth-child(7)
+{
+    grid-area: seis;
+}
+
+.div-btn button:nth-child(8)
+{
+    grid-area: sete;
+}
+
+.div-btn button:nth-child(9)
+{
+    grid-area: oito;
+}
+
+.div-btn button:nth-child(10)
+{
+    grid-area: nove;
+}
+
+.div-btn button:nth-child(11)
+{
+    grid-area: igual;
+}
+
+.div-btn button:nth-child(12)
+{
+    grid-area: ponto;
+}
+
+.div-btn button:nth-child(13)
+{
+    grid-area: soma;
+}
+
+.div-btn button:nth-child(14)
+{
+    grid-area: subtrair;
+}
+
+.div-btn button:nth-child(15)
+{
+    grid-area: multiplicar;
+}
+
+.div-btn button:nth-child(16)
+{
+    grid-area: dividir;
+}
+
+.div-btn button:nth-child(17)
+{
+    grid-area: cancel;
+}
+
+.div-btn button:nth-child(18)
+{
+    grid-area: aoQuadrado;
+}
+
+.div-btn button:nth-child(19)
+{
+    grid-area: raiz;
+
+}
+
+.div-btn button:nth-child(20)
+{
+    grid-area: apagar;
+}

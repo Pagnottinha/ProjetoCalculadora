@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="div-input">
+            <input type="text" id="secundario" disabled>
+            <input type="text" id="primario" disabled>
+        </div>
+        <div class="div-btn">
+            <button onclick="add(0)">0</button>
+            <button onclick="add(1)">1</button>
+            <button onclick="add(2)">2</button>
+            <button onclick="add(3)">3</button>
+            <button onclick="add(4)">4</button>
+            <button onclick="add(5)">5</button>
+            <button onclick="add(6)">6</button>
+            <button onclick="add(7)">7</button>
+            <button onclick="add(8)">8</button>
+            <button onclick="add(9)">9</button>
+            <button onclick="conta()">=</button>
+            <button onclick="add('.')">.</button>
+            <button onclick="operacao('+')">+</button>
+            <button onclick="operacao('-')">-</button>
+            <button onclick="operacao('*')">x</button>
+            <button onclick="operacao('/')">/</button>
+            <button onclick="C()">C</button>
+            <button onclick="quadrado()">x²</button>
+            <button onclick="raiz()">√x</button>
+            <button onclick="apagar()">←</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
